@@ -1,0 +1,13 @@
+CC = clang
+ARGS = -Wall
+
+all: clobber Main
+
+Main: 
+	clang++ -Wall -I ./boost_1_60_0/ -o Main Main.cpp Analyzer.cpp
+
+clean:
+	rm -rf *.o
+
+clobber: clean
+	rm -rf Main 
