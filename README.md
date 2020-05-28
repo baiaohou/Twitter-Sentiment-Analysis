@@ -27,9 +27,9 @@ Each statement is labeled with a score from -2 to 2 as follows:
 ```
 -2: very negative
 -1: somewhat negative
-0: neutral
-1: somewhat positive
-2: very positive
+ 0: neutral
+ 1: somewhat positive
+ 2: very positive
 ```
 
 To determine the overall sentiment of the word “fun,” we take the average of the sentences in which it appears. In this case, it would be ```(0 + 1 + -1 + 2 + 2) / 5 = 0.8.```
